@@ -1,0 +1,116 @@
+/* Style sheet */
+
+body {
+  background-color: rgb(220, 220, 220);
+  font-family: 'Rubik', sans-serif;
+  color: rgb(20, 20, 20);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media (max-width: 960px) {
+.container {
+  width: 900px;
+}
+}
+
+@media (max-width: 720px) {
+.container {
+  width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+.container {
+  width: 400px;
+}
+}
+
+.container {
+   text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.card {
+  background: rgb(240, 240, 240);
+  border-radius: 4px;
+}
+
+.btn-blue {
+  background: #aee7e8;
+  color: white;
+  display: inline-block;
+  width: 200px;
+  margin: 30px auto;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.btn-blue:hover {
+  background: #248ea9;
+  color: white;
+}
+
+.list-center {
+  padding: 0px;
+}
+
+.list-none {
+  list-style-type: none;
+}
+
+.list-inline {
+  display: inline-block;
+}
+
+.list-justify {
+  text-align: justify;
+  padding-left: 40%;
+}
+
+.img-circle {
+  border-radius:50%;
+  border: 5px solid #aee7e8;
+}
+
+h1, h2 {
+  color: #248ea9;
+}
+
+h1 {
+  font-size: 35px;
+  line-height: 100px;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #aee7e8
+}
+
+a:hover {
+  color: #248ea9;
+}
+
+.social {
+  font-size: 40px;
+  padding:  0 10px;
+}
+
+.leaf {
+  font-size: 120px;
+  margin: auto;
+  color: #aee7e8;
+  position: relative;
+  bottom: 30px;
+}
+
+.hobby {
+  font-size: 30px;
+  color: #248ea9;
+}
